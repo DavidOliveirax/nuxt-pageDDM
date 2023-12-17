@@ -51,7 +51,7 @@
         </template>
         <div class="flex justify-evenly items-center">
           <div>
-            <img class="w-72 mb-20 " src="@/assets/image/gamer-mid.png" alt="">
+            <img class="w-72 mb-20" src="@/assets/image/gamer-mid.png" alt="">
           </div>
           <div class="w-60 h-48">
             <h1 class="pb-5">
