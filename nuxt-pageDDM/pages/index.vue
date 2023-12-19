@@ -87,6 +87,10 @@
 </template>
 
 <script>
+import config3 from '~/components/modelos/config3.vue';
+import config5 from '~/components/modelos/config5.vue';
+import config7 from '~/components/modelos/config7.vue';
+
 </script>
 
 <style></style>
