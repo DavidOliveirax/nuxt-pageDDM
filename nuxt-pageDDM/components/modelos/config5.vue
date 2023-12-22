@@ -5,7 +5,7 @@
           </div>
           <div class="w-60 h-48">
             <h1 class="pb-5">
-              Intel i3 4570 <br>
+              Intel i5 4590 <br>
               Placa Mãe H81 <br>
               RAM DDR3 16GB 1600mhz <br>
               SSD Sata 512GB <br>

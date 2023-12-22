@@ -95,7 +95,6 @@ const homeOptions = ref([
     value: 'i7'
   }
 ])
-
 </script>
 
 <style></style>
