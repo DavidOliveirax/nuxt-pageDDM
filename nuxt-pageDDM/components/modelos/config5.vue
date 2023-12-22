@@ -10,7 +10,7 @@
               RAM DDR3 16GB 1600mhz <br>
               SSD Sata 512GB <br>
             </h1>
-            <h1 class="text-red-600 font-bold text-3xl pb-8">R$1.190,00</h1>
+            <h1 class="text-red-600 font-bold text-3xl pb-8">R$1.390,00</h1>
             <UButton color="gray" icon="i-heroicons-arrow-right-circle-solid" to="https://ui.nuxt.com" target="_blank">Comprar
             </UButton>
           </div>

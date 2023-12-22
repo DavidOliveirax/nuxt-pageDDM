@@ -16,18 +16,13 @@
         <template #header>
           <div class="flex justify-between items-center">
             <h1 class="font-bold">DESKTOP HOME</h1>
-            <label for="ConfigDesktop" class="block text-sm font-medium text-gray-900"> Headliner </label>
-            <select name="ConfigDesktop" id="configDesktop"
-              class="mt-1.5 w-30 h-8 rounded-lg border-gray-300 text-white sm:text-sm">
-              <option value="i3">Configurações</option>
-              <option value="i3">Desktop i3</option>
-              <option value="i5">Desktop i5</option>
-              <option value="i7">Desktop i7</option>
-            </select>
+            <USelect color="red" v-model="homeSelected" :options="homeOptions" />
           </div>
         </template>
         <div id="configD">
-          <ModelosConfig3 />
+          <ModelosConfig3 v-if="homeSelected == 'i3'" />
+          <ModelosConfig5 v-if="homeSelected == 'i5'" />
+          <ModelosConfig7 v-if="homeSelected == 'i7'" />
         </div>
       </UCard>
       <UCard class="mt-10">
@@ -86,7 +81,20 @@
   </div>
 </template>
 
-<script>
+<script setup>
+const homeSelected = ref('i3')
+const homeOptions = ref([
+  {
+    label: 'Desktop i3',
+    value: 'i3'
+  }, {
+    label: 'Desktop i5',
+    value: 'i5',
+  }, {
+    label: 'Desktop i7',
+    value: 'i7'
+  }
+])
 
 </script>
 

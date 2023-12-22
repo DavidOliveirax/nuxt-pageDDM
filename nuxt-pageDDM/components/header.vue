@@ -5,7 +5,7 @@
             <ul class="p-4"><NuxtLink to="https://ui.nuxt.com" target="_blank">Quem Somos</NuxtLink></ul>
             <ul class="p-4"><NuxtLink to="https://ui.nuxt.com" target="_blank">Como comprar</NuxtLink></ul>
             <ul class="p-4"><NuxtLink to="https://ui.nuxt.com" target="_blank">Prazo de Entrega</NuxtLink></ul>
-            <ul class="p-4"><NuxtLink to="https://ui.nuxt.com" target="_blank">Correios</NuxtLink></ul>
+            <ul class="p-4"><NuxtLink to="https://correios.com.br" target="_blank">Correios</NuxtLink></ul>
         </nav>
     </div>
 </template>
